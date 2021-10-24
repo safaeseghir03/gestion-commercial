@@ -1,0 +1,47 @@
+body{
+	background-image:url("MARGE.png");
+	background-repeat: no-repeat;
+	 align-items: center;
+	background-size:cover; 
+	
+}
+
+#login{
+width: 400px;
+border:0;
+background: transparent;
+text-align: center;
+position :absolute;
+	top:40%;
+left:40%;
+}
+button{
+	
+
+font-family: "roboto",sans-serif;
+font-size: 20px;
+font-weight: bold;
+background: red;
+width: 300px;
+padding: 70px;
+
+text-decoration: none;
+text-transform: uppercase;
+color:yellow;
+border-radius:5px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	-webkit-transition-duration:0.3;
+	transition-duration:0.3;
+	-webkit-transition-property:box-shadow,transparent; 
+	top:30%;
+left:40%;
+
+
+}
+button:hover ,button:focus , button:active{
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	-webkit-transform:scale(1.1);
+	transform: scale(1.1);
+}
+
+
